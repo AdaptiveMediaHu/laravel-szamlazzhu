@@ -38,7 +38,7 @@ trait InvoiceValidationRules
             /* ----------------------------------------------------------
              * Customer fields
              * -------------------------------------------------------- */
-            'customerEmail'             => ['nullable', 'email'],
+            // 'customerEmail'             => ['nullable', 'email'],
         ];
     }
 
@@ -129,5 +129,4 @@ trait InvoiceValidationRules
             'items.*.comment'           => ['sometimes', 'string'],
         ];
     }
-
 }
